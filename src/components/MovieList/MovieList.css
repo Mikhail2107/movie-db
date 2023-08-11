@@ -1,0 +1,27 @@
+.movie-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 35px;
+  margin-bottom: 40px;
+}
+
+.ant-pagination .ant-pagination-item-active {
+  background-color: #1677ff;
+  background-image: linear-gradient(#1677ff, #60d7f5);
+}
+
+.ant-pagination .ant-pagination-item-active > a {
+  color: white;
+}
+
+.ant-pagination .ant-pagination-item-active > a:hover {
+  color: white;
+}
+
+@media(max-width: 768px) {
+  .movie-list {
+      grid-template-columns: 1fr;
+      gap: 20px;
+      margin-bottom: 20px;
+  }
+}

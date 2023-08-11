@@ -1,0 +1,51 @@
+button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  font-size: 100%;
+  vertical-align: baseline;
+  font-family: inherit;
+  font-weight: inherit;
+  color: inherit;
+  cursor: pointer;
+  -webkit-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button::-moz-focus-inner {
+  border: none;
+}
+
+:focus {
+  outline: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.container-margin {
+  margin: 14px 36px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 938px;
+  margin: 0 auto;
+}
+
+@media(max-width: 768px) {
+  .container-margin {
+    margin: 20px 16px;
+  }
+
+  .container {
+    min-width: 387px;
+  }
+}
