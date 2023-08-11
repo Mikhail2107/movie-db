@@ -27,9 +27,9 @@ class App extends Component {
   posterPath = 'https://image.tmdb.org/t/p/w500/'
 
   errorMessage = {
-    loading: 'Oops! Something wrong. Try to reload page',
-    noMovies: 'Oops! Movies were not found. Please change your request',
-    noRatedMovies: 'Oops! There are no rated movies',
+    loading: 'Карамба!!! Нужно перезагрузить страницу',
+    noMovies: 'Бугагашенька!Нет такого фильма',
+    noRatedMovies: 'Упс! Рейтинговых фильмов нет',
   }
 
   debouncedGetMovies = debounce((value, page = 1) => {
