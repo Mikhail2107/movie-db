@@ -33,8 +33,7 @@ function MovieCard(props) {
     movie: PropTypes.object,
     addRating: PropTypes.func,
   }
-  // const imageWidth = 183
-  // const imageHeight = 281
+  
   const raitingColor = (raiting) => {
     let color
     if (raiting > 7) {
